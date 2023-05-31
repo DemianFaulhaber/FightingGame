@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background-image: url("../media/fondo.jpg");
+    background-size:100vw 100vh;
+    overflow: hidden;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    position: absolute;
+}
+
+li img{
+    width: 125px;
+}
+
+
+.leftside{
+    width: 50%;
+    height: 100vh;
+    /* background-color: red; */
+    display: flex;
+}
+
+.rightside{
+    width: 50%;
+    height: 100vh;
+    /* background-color: blue; */
+    display: flex;
+}
+
+.player1{
+    position: absolute;
+    top: 45vh;
+    left: 10vw;
+    width: 30vw;
+    margin: 0;
+}
+
+.player2{
+    position: absolute;
+    top: 45vh;
+    right: 10vw;
+    width: 30vw;
+    transform: rotatey(180deg)
+}
+
+.button{
+    width: 10vw;
+    height: 5vw;
+    margin-left: 2vw;
+    position: relative;
+    top: 20vw;
+    left: 10vw;
+}
+
+.life2{
+    right: 0.5vw;
+}
