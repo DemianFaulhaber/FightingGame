@@ -1,3 +1,10 @@
+@font-face{
+    font-family: '8bit';
+    src: url('../fonts/8BIT.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -57,8 +64,15 @@ li img{
     height: 5vw;
     margin-left: 2vw;
     position: relative;
-    top: 20vw;
+    top: 18vw;
     left: 10vw;
+    z-index: 200;
+    border-radius: 25%;
+    border: solid 1px;
+    opacity: 100%;
+    cursor: pointer;
+    font-size: 20px;
+    font-family:'8bit';
 }
 
 .life2{
