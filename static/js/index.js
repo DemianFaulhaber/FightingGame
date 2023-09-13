@@ -29,16 +29,16 @@ weakhit_button1.onclick = function(){
     player2.life = player2.life - player1.weakhit;
     switch(player2.life){
         case 2:
-            p2heart3.style.mixBlendMode = "color-burn";
+            p2heart3.style.mixBlendMode = "luminosity";
             break;
         case 1:
-            p2heart3.style.mixBlendMode = "color-burn";
-            p2heart2.style.mixBlendMode = "color-burn";
+            p2heart3.style.mixBlendMode = "luminosity";
+            p2heart2.style.mixBlendMode = "luminosity";
             break;
         case 0:
-            p2heart3.style.mixBlendMode = "color-burn";
-            p2heart2.style.mixBlendMode = "color-burn";
-            p2heart.style.mixBlendMode = "color-burn";
+            p2heart3.style.mixBlendMode = "luminosity";
+            p2heart2.style.mixBlendMode = "luminosity";
+            p2heart.style.mixBlendMode = "luminosity";
             break;
     }
     if(player2.life > 0){
@@ -64,16 +64,16 @@ stronghit_button1.onclick = function(){
     player2.life = player2.life - player1.stronghit;
     switch(player2.life){
         case 2:
-            p2heart3.style.mixBlendMode = "color-burn";
+            p2heart3.style.mixBlendMode = "luminosity";
             break;
         case 1:
-            p2heart3.style.mixBlendMode = "color-burn";
-            p2heart2.style.mixBlendMode = "color-burn";
+            p2heart3.style.mixBlendMode = "luminosity";
+            p2heart2.style.mixBlendMode = "luminosity";
             break;
         case 0:
-            p2heart3.style.mixBlendMode = "color-burn";
-            p2heart2.style.mixBlendMode = "color-burn";
-            p2heart.style.mixBlendMode = "color-burn";
+            p2heart3.style.mixBlendMode = "luminosity";
+            p2heart2.style.mixBlendMode = "luminosity";
+            p2heart.style.mixBlendMode = "luminosity";
             break;
     }
     if(player2.life > 0){
@@ -100,16 +100,16 @@ weakhit_button2.onclick = function(){
     player1.life = player1.life - player2.weakhit
     switch(player1.life){
         case 2:
-            p1heart3.style.mixBlendMode = "color-burn";
+            p1heart3.style.mixBlendMode = "luminosity";
             break;
         case 1:
-            p1heart3.style.mixBlendMode = "color-burn";
-            p1heart2.style.mixBlendMode = "color-burn";
+            p1heart3.style.mixBlendMode = "luminosity";
+            p1heart2.style.mixBlendMode = "luminosity";
             break;
         case 0:
-            p1heart3.style.mixBlendMode = "color-burn";
-            p1heart2.style.mixBlendMode = "color-burn";
-            p1heart.style.mixBlendMode = "color-burn";
+            p1heart3.style.mixBlendMode = "luminosity";
+            p1heart2.style.mixBlendMode = "luminosity";
+            p1heart.style.mixBlendMode = "luminosity";
             break;
     }
     if(player1.life > 0){
@@ -135,16 +135,16 @@ stronghit_button2.onclick = function(){
     player1.life = player1.life - player2.stronghit
     switch(player1.life){
         case 2:
-            p1heart3.style.mixBlendMode = "color-burn";
+            p1heart3.style.mixBlendMode = "luminosity";
             break;
         case 1:
-            p1heart3.style.mixBlendMode = "color-burn";
-            p1heart2.style.mixBlendMode = "color-burn";
+            p1heart3.style.mixBlendMode = "luminosity";
+            p1heart2.style.mixBlendMode = "luminosity";
             break;
         case 0:
-            p1heart3.style.mixBlendMode = "color-burn";
-            p1heart2.style.mixBlendMode = "color-burn";
-            p1heart.style.mixBlendMode = "color-burn";
+            p1heart3.style.mixBlendMode = "luminosity";
+            p1heart2.style.mixBlendMode = "luminosity";
+            p1heart.style.mixBlendMode = "luminosity";
             break;
     }
     if(player1.life > 0){
